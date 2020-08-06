@@ -5,19 +5,31 @@
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
-## Installation
+## Requisitos
 
-OS X & Linux:
+- [Git](https://git-scm.com/) 
+- [Node.js](https://nodejs.org/)
+- [Npm](https://www.npmjs.com/) 
+- [Angular](https://pt-br.reactjs.org/)
 
-```sh
-npm install my-crazy-module --save
-```
+## Configuração
 
-Windows:
+Após clonar o repositório, tenha certeza de ter Node e NPM instalados na sua máquina. Após resolver essas dependências, instale as dependências e o Angular CLI (versão 1.7.0) através do comando:
 
-```sh
-edit autoexec.bat
-```
+```sh 
+npm setup
+``` 
+
+Esse comando irá instalar as dependências externas e compilar as dependências internas através da pasta *libs*. Para verificar o comando abra o arquivo *package.json* e procure pela seção *scripts*
+
+Para iniciar o projeto, execute o comando:
+
+```sh ng serve
+``` 
+
+A aplicação estará disponível no endereço [http://localhost:4200](http://localhost:4200)
+
+*Obs*.: A versão inicia do frontend usava Angular 5 com Angular CLI (1.7.0).
 
 ## Usage example
 
